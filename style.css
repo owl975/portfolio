@@ -1,0 +1,95 @@
+body {
+
+	background-image: url("http://blog.edinchavez.com/wp-content/uploads/2014/04/FlatIronBW.jpg");
+	background-size: contain;
+}
+
+header {
+	padding-bottom: 20px;
+}
+
+#title{
+	
+	text-align: center;
+	color: white;
+}
+
+#brand {
+
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 60px;
+	color: white;
+}
+
+.mybox {
+	margin: 0 auto;
+	background:rgba(255,255,255, 0.6);
+	width: 300px;
+	border-style: solid;
+	border-color: rgba(255,255,255, 0.6);
+	border-radius:20px;
+	overflow: hidden;
+	height: 400px;
+	padding-bottom: 8px;
+
+}
+
+.mybox img {
+	width: 100%;
+	border-radius: 15px;
+
+}
+
+.col-sm-6 {
+
+	padding-bottom: 15px;
+}
+ 
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s;
+   background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    
+  }
+
+ 
