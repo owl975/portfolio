@@ -2,36 +2,60 @@
 <html>
 <head>
 	<title>Portfolio</title>
+  <script src="script.js"></script>
+
 
 <link href='http://fonts.googleapis.com/css?family=Allerta+Stencil' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 <link rel="stylesheet" type="text/css" href="style.css">
+
 
 </head>
 <body>
+
+
   <header>
   <div id="title">
     <h1 id="brand">Portfolio<h1>
       <h3>Matthew Gomez</h3>
   </div>
+  <div class="container">
   <div class="nav">
-      <ul>
-        <li class="home"><a href="#">Home</a></li>
-        <li class="Projects"><a href="#">Projects</a></li>
-        <li class="about"><a href="#">About</a></li>
-        <li class="news"><a href="#">Newsletter</a></li>
-        <li class="contact"><a href="#">Contact</a></li>
+      <ul class="nav nav-pills .nav-justified">
+        <li role="presentation" class="active"><a href="#tab_a" data-toggle="tab">About Me</a></li>
+        <li role="presentation"><a href="#tab_b" data-toggle="tab">Projects</a></li>
+        <li role="presentation"><a href="#tab_c" data-toggle="tab">Contact</a></li>
       </ul>
     </div>
+  </div>
   </header>
 
+<div class="tab-content">
+        <div class="tab-pane fade active in" id="tab_a">
+          <div class="container">
+            <div id="aboutme" class="row">
+            <div id="aboutmeimg" class="col-md-6"><img src="http://i.imgur.com/Jxe8WDm.jpg"></div>
+            <div id="aboutmep" class="col-md-6"> <h2>About Me</h2><p>
 
-    <div class="container">
+              Selvage cold-pressed American Apparel art party, stumptown normcore YOLO gastropub butcher letterpress master cleanse vegan pour-over. Letterpress pop-up aesthetic, cronut photo booth raw denim Odd Future you probably haven't heard of them tattooed. Thundercats readymade disrupt cardigan typewriter next level direct trade gastropub. Quinoa sustainable fingerstache, Schlitz typewriter four dollar toast yr locavore put a bird on it. Hoodie roof party fap, Brooklyn pug messenger bag asymmetrical small batch. Jean shorts heirloom pug, chambray ugh synth +1 lumbersexual hashtag. +1 blog irony, Etsy raw denim chambray post-ironic put a bird on it seitan American Apparel cold-pressed.
+              </p>
+              </div>
+            </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="tab_b">
+      <div class="container">
       <div class="row">
         <div class="col-sm-6 ">
           <div class="mybox">
-          <img src="http://www.collegetransitions.com/wp-content/uploads/2014/07/Architecture-Colleges.jpg" style="width:px;">
+          <a href=""><img src="http://www.collegetransitions.com/wp-content/uploads/2014/07/Architecture-Colleges.jpg" style="width:px;"></a>
           <p>Banh mi master cleanse occupy photo booth lo-fi, street art food truck Blue Bottle normcore. Flannel distillery drinking vinegar leggings, hoodie DIY pour-over you probably haven't heard of them mixtape. Helvetica sartorial Truffaut, authentic fixie cardigan swag ennui hoodie roof party. 
           </p>
           <a href="">Learn More =></a>
@@ -40,7 +64,7 @@
       
         <div class="col-sm-6 ">
           <div class="mybox">
-          <img src="http://www.cultureforge.net/wp-content/uploads/2015/03/church-architecture.jpg" style="width:px;">
+          <a href=""><img src="http://www.cultureforge.net/wp-content/uploads/2015/03/church-architecture.jpg" style="width:px;"></a>
           <p>American Apparel Wes Anderson tilde +1. Slow-carb cardigan literally quinoa. Blog Echo Park kitsch, Truffaut gentrify bicycle rights retro viral. Shabby chic stumptown Williamsburg Tumblr dreamcatcher, cliche cred McSweeney's locavore mixtape keytar mumblecore.</p>
           <a href="">Learn More =></a>
         </div>
@@ -49,7 +73,7 @@
       <div class="row">
         <div class="col-sm-6">
           <div class="mybox">
-          <img src="http://amazed.net/wp-content/uploads/2015/03/Mahmoud-Heidarian-Vancouver-modern-architecture.jpg" style="width:px;">
+          <a href=""><img src="http://amazed.net/wp-content/uploads/2015/03/Mahmoud-Heidarian-Vancouver-modern-architecture.jpg" style="width:px;"></a>
           <p>Brunch kogi biodiesel meditation fixie yr viral wayfarers, beard typewriter pour-over High Life literally cliche. Ugh literally locavore readymade fixie typewriter. Post-ironic shabby chic Blue Bottle, pour-over ethical Marfa brunch distillery. Salvia sustainable Tumblr tofu Thundercats hoodie. </p>
           <a href="">Learn More =></a>
         </div>
@@ -57,11 +81,11 @@
         
         <div class="col-sm-6">
           <div class="mybox">
-          <img src="http://educationcareerarticles.com/wp-content/uploads/2014/04/Architecture2.jpg" style="width:px;">
+          <a href=""><img src="http://educationcareerarticles.com/wp-content/uploads/2014/04/Architecture2.jpg" style="width:px;"></a>
           <p>Roof party Williamsburg food truck, lumbersexual 90's cliche disrupt drinking vinegar stumptown Bushwick cray art party. Lomo chambray bitters cold-pressed, wayfarers listicle meh keytar leggings beard DIY. Tofu food truck quinoa bespoke.</p>
           <a href="">Learn More =></a>
         </div>
-        </div>
+        
 
       </div>
       <break></break>
@@ -69,5 +93,38 @@
       </div>
 
     </div>
+        </div>
+        <div class="tab-pane fade" id="tab_c">
+          <div id="contact">
+            <div id="inputs">
+              <div class="input-group">
+              <span class="input-group-addon" id="basic-addon1"></span>
+              <input name="nmtxt" type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group">
+              <span class="input-group-addon" id="basic-addon1"></span>
+              <input name="emtxt" type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group">
+              <span class="input-group-addon" id="basic-addon1"></span>
+              <input name="subtxt" type="text" class="form-control" placeholder="Subject" aria-describedby="basic-addon1">
+              </div>
+              <textarea name="msgtxt" class="form-control" rows="3" placeholder="Message" required></textarea>
+              <br>
+              <button id="submt" type="submit" class="btn btn-primary">Submit</button>
+              <button type="clear" class="btn">Clear</button>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+       </div> 
+      </div>
+</div>
+
+
+    
 </body>
 </html>
