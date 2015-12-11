@@ -92,9 +92,9 @@ opacity: 0;
 
 #contact {
 
+	padding-left: 20px;
 	margin: 0 auto;
 	background:rgba(255,255,255, 0.8);
-	width: 800px;
 	border-style: solid;
 	border-color: rgba(255,255,255, 0.8);
 	border-radius:20px;
